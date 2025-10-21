@@ -1,0 +1,66 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+$primaryFont: 'Poppins', sans-serif;
+$secFont: 'playfair Display', serif;
+$primaryColor: #2493e9;
+$bkColor: #000000;
+$whColor: #ffffff;
+$maginLg: 30px 0;
+$marginSm: 0 0 15px;
+$paddingLg:45px 0;
+$paddingSm: 15px 0;
+$boxShadow: 0 0 10px #ddd;
+
+body{
+    // font-size: 16px;
+    // font-family: $primaryFont;
+    // font-weight: 300;
+
+    font:{
+        size: 16px;
+        family: $primaryFont;
+        weight: 300;
+    }
+}
+
+h1, h2 h3, h4, h5, h6{
+    font-family: $secFont;
+    margin: $marginSm;
+    line-height: 1.2em;
+}
+
+h2{
+    font-size: 75px;
+    strong{
+    color: $primaryColor;
+    }
+}
+h3{
+    font-size: 75px;
+    strong{
+    color: $primaryColor;
+    }
+}
+h4{
+    font-size: 75px;
+    strong{
+    color: $primaryColor;
+    }
+}
+h5{
+    font-size: 75px;
+    strong{
+    color: $primaryColor;
+    }
+}
+
+
+
+.inner{
+display: flex;
+justify-content: space-between;
+}
