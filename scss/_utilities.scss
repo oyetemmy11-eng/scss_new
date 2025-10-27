@@ -46,13 +46,17 @@ h3{
     }
 }
 h4{
-    font-size: 75px;
+   text-transform: uppercase;
+   font-family: $primaryFont;
+   font-size: 18px;
     strong{
     color: $primaryColor;
     }
 }
 h5{
-    font-size: 75px;
+   text-transform: uppercase;
+   font-family: $primaryFont;
+   font-size: 22px;
     strong{
     color: $primaryColor;
     }
@@ -72,7 +76,58 @@ img{
     height: auto;
 }
 
+input, select{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.content{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.smContent{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.center{
+    text-align: center;
+}
+
 .inner{
 display: flex;
 justify-content: space-between;
+}
+
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+        display: inline-block;
+    }
+}
+
+.btn, input[type="submit"]{
+    background: $primaryColor;
+    color: $whColor;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    transition: 5s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover{
+        background-color: $bkColor;
+    }
 }
