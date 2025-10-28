@@ -1,6 +1,6 @@
 #checkout_area{
-    // background-color: red;
     position: relative;
+    margin-top: -65px;
     .inner_checkout{
         background: $whColor;
         padding: 20px;
@@ -13,6 +13,8 @@
             float: left;
             padding-left: 10px;
             padding-top: 10px;
+            margin-right: 12px;
+            margin-top: -4px;
         }
         h5{
             color: $bkColor;
